@@ -1,0 +1,64 @@
+/*
+    This is the sytle sheet for index.html. The first section is general styles just for the basic needs of the website.
+*/
+
+body{
+    background-color: #d6b24f;
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    
+}
+
+button{
+    background-color: crimson;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+div{
+    padding-bottom: 30px;
+}
+
+footer{
+    position: absolute;
+    bottom:  0px;
+    left: 0px;
+    right: 0px;
+
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+/*
+    everything else here is specific for the index.html page. All of this is used to make the page look the way it does 
+*/
+
+#home{
+    position: absolute;
+    top: 17%;
+    text-align: center;
+}

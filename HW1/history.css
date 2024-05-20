@@ -1,0 +1,83 @@
+/*
+    This is the sytle sheet for history.html. The first section is general styles just for the basic needs of the website.
+*/
+
+footer{
+    position: absolute;
+    bottom:  0px;
+    left: 0px;
+    right: 0px;
+    height: 0px;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+body{
+    background-color: #d6b24f;
+    position: relative;
+    min-height: 100vh;
+    
+}
+
+div{
+    padding-bottom: 50px;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+    everything else here is specific for the history.html page. All of this is used to make the page look the way it does 
+*/
+
+h5{
+    margin: 5px;
+}
+
+#main{
+    position: absolute;
+    top: 15%;
+}
+
+#aug{
+    position: absolute;
+    top: 45%;
+    margin-right: 50%;
+}
+
+#Augu{
+    width: 133px;
+    height: 200px;
+}
+
+#Map{
+    width: 290px;
+    height: 200px;
+}
+
+#map{
+    position: absolute;
+    top: 45%;
+    margin-left: 50%;
+}
